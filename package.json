@@ -3,9 +3,11 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "turbo run dev --parallel",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "web:dev": "next dev -p 3000 -H localhost",
+    "core:dev": "node apps/core/index.js"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
