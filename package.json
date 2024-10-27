@@ -7,7 +7,7 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "web:dev": "next dev -p 3000 -H localhost",
-    "core:dev": "node apps/core/index.js"
+    "core:dev": "node apps/core/server.js"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
