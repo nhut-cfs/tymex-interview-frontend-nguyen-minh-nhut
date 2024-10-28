@@ -40,3 +40,10 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: "DroneRangerPro";
+  src: url("../pages/fonts/DroneRangerPro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

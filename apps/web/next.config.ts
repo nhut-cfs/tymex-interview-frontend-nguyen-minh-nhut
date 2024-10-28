@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     "antd",
     "rc-pagination",
     "rc-picker",
+    "@repo/ui",
   ],
   redirects: async () => [
     {
