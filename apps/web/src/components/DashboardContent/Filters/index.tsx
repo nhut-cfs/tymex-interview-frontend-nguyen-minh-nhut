@@ -91,20 +91,23 @@ const Filters = () => {
     dispatch(productSlice.actions.resetFilter());
   };
 
-  const handleDebounceSearch = (event: ChangeEvent<HTMLInputElement>) => {
-    dispatch(
-      productSlice.actions.setFieldValue({
-        field: "keyword",
-        value: event.target?.value,
-      })
-    );
-    getProducts({
-      filters: { ...criteriaFilter, keyword: event.target?.value },
-      metadata: { _page: 1 },
-    }).then((res) => {
-      dispatch(productSlice.actions.setProducts(res.data ?? []));
-    });
-  };
+  const handleDebounceSearch = debounce(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      dispatch(
+        productSlice.actions.setFieldValue({
+          field: "keyword",
+          value: event.target?.value,
+        })
+      );
+      getProducts({
+        filters: { ...criteriaFilter, keyword: event.target?.value },
+        metadata: { _page: 1 },
+      }).then((res) => {
+        dispatch(productSlice.actions.setProducts(res.data ?? []));
+      });
+    },
+    1000
+  );
 
   return (
     <Form
