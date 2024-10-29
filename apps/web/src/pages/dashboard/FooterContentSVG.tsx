@@ -109,8 +109,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="57.7886"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1_165"
@@ -120,8 +120,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="80.4211"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_1_165"
@@ -131,8 +131,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="103.415"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1_165"
@@ -142,8 +142,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="126.667"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_1_165"
@@ -153,8 +153,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="150.317"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_1_165"
@@ -164,8 +164,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="174.529"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_1_165"
@@ -175,8 +175,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="199.249"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_1_165"
@@ -186,8 +186,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="224.632"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_1_165"
@@ -197,8 +197,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="250.959"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_1_165"
@@ -208,8 +208,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="278.242"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_1_165"
@@ -219,8 +219,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="306.973"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_1_165"
@@ -230,8 +230,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="337.385"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_1_165"
@@ -241,8 +241,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="370.04"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_1_165"
@@ -252,8 +252,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="405.976"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_1_165"
@@ -263,8 +263,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="446.226"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_1_165"
@@ -274,8 +274,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="493.04"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_1_165"
@@ -285,8 +285,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="550.698"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_1_165"
@@ -296,8 +296,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="625.618"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_1_165"
@@ -307,8 +307,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="734.134"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_1_165"
@@ -318,8 +318,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="919.451"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_1_165"
@@ -329,8 +329,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="1318.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_1_165"
@@ -340,8 +340,8 @@ function FooterContent(props: SVGProps<SVGSVGElement>) {
           y2="968.931"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DD5AFE" />
-          <stop offset="1" stop-color="#6366F1" />
+          <stop stopColor="#DD5AFE" />
+          <stop offset="1" stopColor="#6366F1" />
         </linearGradient>
         <clipPath id="clip0_1_165">
           <rect

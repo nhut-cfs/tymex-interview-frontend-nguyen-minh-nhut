@@ -17,6 +17,18 @@ const theme: ThemeConfig = {
     Layout: {
       headerPadding: "0 25px",
     },
+    Input: {
+      colorIcon: "#FFF",
+      colorText: "#FFF",
+      colorBgContainer: "transparent",
+    },
+    Select: {
+      colorBgContainer: "transparent",
+      colorBgElevated: "#070E22",
+    },
+    Card: {
+      colorBgContainer: "rgba(58, 56, 65, 0.6)",
+    },
   },
 };
 

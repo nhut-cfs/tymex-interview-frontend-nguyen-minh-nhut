@@ -1,24 +1,33 @@
-import React from "react";
+import { Flex, Grid } from "antd";
+import React, { useEffect } from "react";
+import Filters from "./Filters";
+import List from "./List";
+import { useLazyGetProductsQuery } from "@/state/nextApi/slices/products";
+import { useDispatch } from "react-redux";
+import { productSlice } from "@/state/slices/productState";
+
+const { useBreakpoint } = Grid;
 
 const DashboardContent = () => {
+  const screens = useBreakpoint();
+  const [getProducts] = useLazyGetProductsQuery();
+  const dispatch = useDispatch();
+  console.log(screens);
+  useEffect(() => {
+    getProducts({ filters: {} }).then((res) => {
+      dispatch(productSlice.actions.setProducts(res.data ?? []));
+    });
+  }, []);
+
   return (
-    <div>
-      {Array(20)
-        .fill(null)
-        .map((_, index) => (
-          <p key={index}>
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum`}
-          </p>
-        ))}
-    </div>
+    <>
+      <Flex vertical={!screens.lg} gap={40}>
+        <div style={{ width: 350 }}>
+          <Filters />
+        </div>
+        <List />
+      </Flex>
+    </>
   );
 };
 

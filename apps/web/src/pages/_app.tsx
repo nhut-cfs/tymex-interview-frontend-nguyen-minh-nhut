@@ -13,19 +13,23 @@ import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
+import { Provider } from "react-redux";
+import { store } from "@/state/store";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [loading] = useTransition();
 
   return (
     <ConfigProvider theme={theme}>
-      {loading ? (
-        <PageLoader />
-      ) : (
-        <AppLayout>
-          <Component {...pageProps} />
-        </AppLayout>
-      )}
+      <Provider store={store}>
+        {loading ? (
+          <PageLoader />
+        ) : (
+          <AppLayout>
+            <Component {...pageProps} />
+          </AppLayout>
+        )}
+      </Provider>
     </ConfigProvider>
   );
 }
