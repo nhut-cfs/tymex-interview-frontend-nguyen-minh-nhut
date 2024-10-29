@@ -20,8 +20,8 @@ export const { useGetProductsQuery, useLazyGetProductsQuery } =
         }
       >({
         query: ({ filters = {}, metadata = {} }) => {
-          console.log("aaa filters", filters);
-          const { keyword, tier, theme, time, price, priceRange } = filters;
+          const { keyword, tier, theme, category, time, price, priceRange } =
+            filters;
           const sortCriteria = [];
           if (time) {
             sortCriteria.push(`${time === "Latest" ? "-" : ""}createdAt`);
@@ -33,6 +33,7 @@ export const { useGetProductsQuery, useLazyGetProductsQuery } =
             ...(!isEmpty(keyword) && { q: keyword }),
             ...(tier && { tier_like: tier }),
             ...(theme && { theme_like: theme }),
+            ...(category && { category_like: category }),
             ...(priceRange?.length === 2 && {
               price_gte: priceRange[0],
               price_lte: priceRange[1],

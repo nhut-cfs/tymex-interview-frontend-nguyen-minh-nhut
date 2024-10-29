@@ -17,7 +17,7 @@ const List = () => {
   };
 
   return (
-    <Flex vertical gap={20}>
+    <Flex vertical gap={20} style={{ width: "100%" }}>
       {loading ? (
         <Spin indicator={<LoadingOutlined spin />} size="large" />
       ) : (

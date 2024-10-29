@@ -13,6 +13,17 @@ const TIER_OPTIONS = ["Basic", "Premium", "Deluxe"];
 const THEME_OPTIONS = ["Dark", "Light", "Colorful", "Halloween"];
 const TIME_OPTIONS = ["Latest", "Oldest"];
 const PRICE_OPTIONS = ["Low to High", "High to Low"];
+const CATEGORY_OPTIONS = [
+  "Upper Body",
+  "Lower Body",
+  "Hat",
+  "Shoes",
+  "Accessory",
+  "Legendary",
+  "Mythic",
+  "Epic",
+  "Rare",
+];
 
 const mapOptionsLabelValue = (options: string[]) =>
   options.map((option) => ({ value: option, label: option }));
@@ -137,7 +148,14 @@ const Filters = () => {
           />
         </Form.Item>
       </div>
-
+      <Form.Item name="category" label="Category">
+        <Select
+          style={{ width: "100%" }}
+          onChange={handleChange("category")}
+          options={mapOptionsLabelValue(CATEGORY_OPTIONS)}
+          allowClear
+        />
+      </Form.Item>
       <Form.Item name="tier" label="Tier">
         <Select
           style={{ width: "100%" }}
