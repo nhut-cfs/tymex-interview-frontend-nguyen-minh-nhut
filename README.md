@@ -12,3 +12,6 @@ npm run dev
 nvm use 18
 npm run start
 
+![image](https://github.com/user-attachments/assets/d4cdc180-2eb7-4b4f-b44c-4244cfe06497)
+
+![image](https://github.com/user-attachments/assets/ba96d00d-a32f-4923-893b-e8524bb98134)
