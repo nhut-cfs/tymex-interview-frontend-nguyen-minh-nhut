@@ -120,6 +120,22 @@ const Filters = () => {
     1000
   );
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      getProducts({
+        filters: {},
+        metadata: { _page: 1 },
+      }).then((res) => {
+        onReset();
+        dispatch(productSlice.actions.setProducts(res.data ?? []));
+      });
+    }, 60000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <Form
       form={form}

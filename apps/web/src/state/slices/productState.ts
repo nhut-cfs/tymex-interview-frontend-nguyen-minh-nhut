@@ -42,7 +42,7 @@ export interface FilterStates {
 const initialState: FilterStates = {
   products: [],
   criteriaFilter: {
-    category: "All",
+    category: null,
     keyword: "",
     tier: null,
     theme: null,
